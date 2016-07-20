@@ -31,7 +31,11 @@
                 android:adjustViewBounds="true"
                 android:paddingBottom="40dp"
                 android:paddingTop="25dp"
-                style="@style/myTheme" />
+                style="@style/myTheme"
+                android:contentDescription="Garage door"
+                android:onClick="toggleGarage"
+                android:clickable="true" />
+
         </RelativeLayout>
 
     </android.support.v4.widget.SwipeRefreshLayout>
