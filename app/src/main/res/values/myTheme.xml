@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="myMainColor">#3f51b5</color>
+    <color name="myMainColor_Dark">#3949ab</color>
+    <color name="myMainColor_Darker">#303f9f</color>
+    <color name="myAccentColor">#29b6f6</color>
+    <style name="myTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:colorPrimary">@color/myMainColor</item>
+        <item name="android:colorPrimaryDark">@color/myMainColor_Dark</item>
+        <item name="android:statusBarColor">@color/myMainColor_Darker</item>
+        <item name="colorPrimary">@color/myMainColor</item>
+        <item name="colorPrimaryDark">@color/myMainColor_Dark</item>
+        <item name="colorAccent">@color/myAccentColor</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_dark</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_light</item>
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_dark</item>
+    </style>
+</resources>
