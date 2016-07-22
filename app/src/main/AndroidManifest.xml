@@ -3,6 +3,7 @@
     package="com.jakobhildebrand.garagenapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -17,9 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+        <activity android:name=".Settings"
+            android:label="Settings" />
     </application>
 
 </manifest>
