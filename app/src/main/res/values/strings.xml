@@ -7,6 +7,7 @@
     <!-- Settings strings -->
     <string name="pref_hostname">Hostname</string>
     <string name="pref_port">Port</string>
+    <string name="pref_relayname">Relay Name</string>
     <string name="pref_use_mobile">Use mobile network</string>
     <string name="pref_use_mobile_summary">Use mobile network and wifi to connect to Yoctohub</string>
 </resources>

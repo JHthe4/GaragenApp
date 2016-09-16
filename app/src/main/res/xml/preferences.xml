@@ -10,6 +10,10 @@
         android:numeric="integer"
         android:maxLength="5"
         android:defaultValue="4444"/>
+    <EditTextPreference
+        android:key="pref_relayname"
+        android:title="@string/pref_relayname"
+        android:defaultValue="RELAYHI1-1DA93.relay1"/>
     <CheckBoxPreference
         android:key="pref_use_mobile"
         android:title="@string/pref_use_mobile"
